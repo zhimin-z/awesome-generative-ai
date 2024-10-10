@@ -3,7 +3,7 @@
 > A curated list of Generative AI projects, tools, artworks, and models
 
 - [Generative AI Area](#generative-ai-area)
-  - [Generative AI history, maps, and definitions](#generative-ai-history-maps-and-definitions)
+  - [Generative AI history, timelines, maps, and definitions](#generative-ai-history-timelines-maps-and-definitions)
   - [Ethics, Philosophical questions and Discussions about Generative AI](#ethics-philosophical-questions-and-discussions-about-generative-ai)
   - [Critical Views about Generative AI](#critical-views-about-generative-ai)
   - [Generative AI Processes and Artifacts](#generative-ai-processes-and-artifacts)
@@ -13,7 +13,9 @@
   - [Papers Collection](#papers-collection)
   - [Online Tools and Applications](#online-tools-and-applications)
 - [Text](#text)
+  - [Small Language Models](#small-language-models)
   - [Large Language Models (LLMs)](#large-language-models-llms)
+    - [Programming Frameworks for LLMs](#programming-frameworks-for-llms)
     - [Prompt Engineering](#prompt-engineering)
       - [Prompt Optimizers](#prompt-optimizers)
       - [Prompt Engineering for Text-to-text](#prompt-engineering-for-text-to-text)
@@ -54,14 +56,16 @@
 - [Video and Animation](#video-and-animation)
 - [Audio and Music](#audio-and-music)
 - [Speech](#speech)
-  - [Inbox: Text-to-speech (TTS) and avatars](#inbox-text-to-speech-tts-and-avatars)
-  - [Inbox: Speech-to-text (STT) and spoken content analysis](#inbox-speech-to-text-stt-and-spoken-content-analysis)
+  - [Text-to-speech (TTS) and avatars](#text-to-speech-tts-and-avatars)
+    - [Podcast generators](#podcast-generators)
+  - [Speech-to-text (STT) and spoken content analysis](#speech-to-text-stt-and-spoken-content-analysis)
 - [Games](#games)
 - [Code and Programming](#code-and-programming)
 - [Multimodal](#multimodal)
   - [Multimodal Embedding Space](#multimodal-embedding-space)
 - [Datasets](#datasets)
 - [Misc](#misc)
+  - [AI and Education](#ai-and-education)
   - [People and works](#people-and-works)
     - [Interesting Twitter Accounts](#interesting-twitter-accounts)
     - [Interesting Instagram Accounts, Posts and Reels](#interesting-instagram-accounts-posts-and-reels)
@@ -216,6 +220,7 @@ Follow this roadmap, keep learning, and enjoy your journey through Generative AI
 
 ## Critical Views about Generative AI
 
+* [I am tired of AI | On Test Automation](https://www.ontestautomation.com/i-am-tired-of-ai/) 
 * [Critique of Generative AI Can Harm Learning Study Design  by Steffi Tan, Vaikunthan Rajaratnam :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4898213)
 * [Generative AI Can Harm Learning by Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, Rei Mariman :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) 
 * [I Taught for Most of My Career. I Quit Because of ChatGPT | TIME](https://time.com/7026050/chatgpt-quit-teaching-ai-essay/) 
@@ -323,6 +328,7 @@ In essence, Generative AI is about feeding an AI system vast amounts of data, tr
 
 ## Generative AI Tools Directories
 
+* [AI Presentation Makers](https://www.aipresentationmakers.com/): In-depth reviews of dozens of AI presentation makers
 * [A.I. Productivity Tools](https://www.aiproductivitytoolkit.com/) 
 * [ToolList.ai](https://toollist.ai/): AI Tools Aggregator
 * [Toolify](https://www.toolify.ai/): AI Tools Directory & AI Tools List
@@ -476,7 +482,7 @@ In essence, Generative AI is about feeding an AI system vast amounts of data, tr
 * [microsoft/LMOps](https://github.com/microsoft/LMOps): General technology for enabling AI capabilities w/ LLMs and MLLMs
 * [F*** You, Show Me The Prompt](https://hamel.dev/blog/posts/prompt/): quickly understand inscrutable LLM frameworks by intercepting API calls
 * [danielmiessler/fabric](https://github.com/danielmiessler/fabric): fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
-* [langfuse/langfuse](https://github.com/langfuse/langfuse/): Open source LLM engineering platform: Observability, metrics, evals, prompt management, playground, datasets. Integrates with LlamaIndex, Langchain, OpenAI SDK, LiteLLM, and more
+* [Langfuse](https://langfuse.com/): Open source LLM engineering platform: Observability, metrics, evals, prompt management, playground, datasets. Integrates with LlamaIndex, Langchain, OpenAI SDK, LiteLLM, and more. [#opensource](https://github.com/langfuse/langfuse)
 * [naklecha/llama3-from-scratch](https://github.com/naklecha/llama3-from-scratch): llama3 implementation one matrix multiplication at a time
 * [[2405.03825] Organizing a Society of Language Models: Structures and Mechanisms for Enhanced Collective Intelligence](https://arxiv.org/abs/2405.03825) 
 * [Open challenges in LLM research](https://huyenchip.com/2023/08/16/llm-research-open-challenges.html) 
@@ -1095,6 +1101,7 @@ In essence, Generative AI is about feeding an AI system vast amounts of data, tr
 
 # Video and Animation
 
+* [Pyramid Flow](https://pyramid-flow.github.io/) 
 * [Infinity AI](https://infinity.ai/): a video foundation model that allows you to craft characters and animate them
 * [Sora](https://openai.com/sora): OpenAI's text-to-video model [[technical report]](https://openai.com/research/video-generation-models-as-world-simulators)
 * [SDV (Stable Diffusion Image To Video)](https://twitter.com/stevemills/status/1727898404787986873?s=46&t=CQsRDjHr9sNtph3xC84hXQ): generates 3 seconds of video in about 30 seconds using an A100 GPU on Colab+.
@@ -1152,7 +1159,7 @@ In essence, Generative AI is about feeding an AI system vast amounts of data, tr
 
 # Speech
 
-## Inbox: Text-to-speech (TTS) and avatars
+## Text-to-speech (TTS) and avatars
 
 * [Parler-TTS](https://huggingface.co/collections/parler-tts/parler-tts-fully-open-source-high-quality-tts-66164ad285ba03e8ffde214c): fully open-source high-quality TTS
 * [p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook): EPUB to audiobook converter, optimized for Audiobookshelf
@@ -1171,7 +1178,12 @@ In essence, Generative AI is about feeding an AI system vast amounts of data, tr
 * [Synthesia](https://www.synthesia.io/): AI Video Generation Platform [#avatar]
 * [Speech Studio - Microsoft Azure](https://speech.microsoft.com/portal): Microsoft's cloud cognitive services
 
-## Inbox: Speech-to-text (STT) and spoken content analysis
+### Podcast generators
+
+* [Google NotebookLM](https://notebooklm.google.com/): generate podcast episodes based on your uploaded references
+* [Illuminate](https://illuminate.google.com/home?pli=1): transform your content into engaging AI‑generated audio discussions also by Google
+
+## Speech-to-text (STT) and spoken content analysis
 
 * [Introducing Universal-1](https://www.assemblyai.com/blog/announcing-universal-1-speech-recognition-model/): multilingual speech-to-text 
 * [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp): Port of OpenAI's Whisper model in C/C++. It can be executed locally.
